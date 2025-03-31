@@ -1,0 +1,60 @@
+
+html, body,  {
+  display: flex;
+font-family: arial;
+height: 100vh;
+align-items: center;
+justify-content:center;
+margin: 0;
+
+}
+
+.main-container{ 
+  text-align: center;
+}
+
+input, button {
+  padding: 11px;
+  margin: 5px;
+  border-radius: 6px;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: red;
+}
+
+.main-tips p {
+  display: inline-flex;
+text-align: center;
+justify-content: center;
+margin: 0;
+background-image: linear-gradient(yellow, red);
+border-radius: 6px;
+padding: 11px;
+}
+
+
+button {
+background-color: hsl(50 50% 100% / 0.1);
+border-radius: 6px;
+font-size: 1rem;
+text-transform: capitalize;
+line-height: 1.4; 
+cursor: pointer;
+font-family: inherit;
+padding: 0.5rem 1rem;
+font-weight: bold;
+border-color: grey;
+letter-spacing: 1.125px;
+
+
+
+}
+button:hover{
+  background-image: linear-gradient(yellow, red);
+  background-color: hsl(50 50% 100% / 0.1);
+  transform: translateY(-2);
+  border-radius: 8px;
+}
